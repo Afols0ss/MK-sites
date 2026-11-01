@@ -1,0 +1,62 @@
+.кнопка {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.кнопка-главная {
+    background-color: #7C3AED;
+    color: white;
+}
+
+.кнопка-неглавная {
+    background-color: #E2E8F0;
+    color: #1E293B;
+}
+
+.кнопка-главная:hover {
+    background-color: #6D28D9;
+}
+
+.кнопка-главная:active {
+    background-color: #5B21B6;
+}
+
+.кнопка-неглавная:hover {
+    background-color: #CBD5E1;
+}
+
+.кнопка-неглавная:active {
+    background-color: #94A3B8;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-link {
+    color: #1E293B;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #7C3AED;
+    border-bottom: 2px solid #7C3AED;
+}
+
+.nav-link.active {
+    color: #7C3AED;
+    border-bottom: 2px solid #7C3AED;
+    font-weight: bold;
+}
