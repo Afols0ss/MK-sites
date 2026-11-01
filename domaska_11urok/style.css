@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F8FAFC;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #7C3AED;
+}
+
+.ценники {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.цена {
+    background: white;
+    padding: 30px;
+    width: 230px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+
+    transition: box-shadow 0.3s ease,
+                transform 0.3s ease;
+}
+
+.цена:hover {
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+    transform: translateY(-5px);
+}
+
+.цена h2 {
+    color: #7C3AED;
+}
+
+.цена h3 {
+    color: #A855F7;
+}
+
+button {
+    background: #7C3AED;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #A855F7;
+}
+
+.главная {
+    min-height: 400px;
+
+    background-image:
+        linear-gradient(
+            rgba(15, 23, 42, 0.7),
+            rgba(124, 58, 237, 0.5)
+        ),
+        url('hero.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.главная-внутри {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.главная-внутри h1 {
+    color: white;
+    font-size: 42px;
+}
+
+.главная-внутри p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.главная-внутри button {
+    background: #A855F7;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.стекляшка-фон {
+    min-height: 400px;
+
+    background: linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #EC4899
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.стекляшка {
+    width: 300px;
+    padding: 35px;
+
+    background: rgba(255, 255, 255, 0.25);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 20px;
+
+    color: white;
+    text-align: center;
+}
+
+.стекляшка h2 {
+    color: white;
+}
